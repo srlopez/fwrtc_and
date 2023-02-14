@@ -1,5 +1,0 @@
-flutter build apk
-
-dir build\app\outputs\flutter-apk
-
-copy build\app\outputs\flutter-apk\app-release.apk ..\hub-fwrtc\app
