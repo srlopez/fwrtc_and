@@ -70,7 +70,7 @@ class _HomePageState extends State<HomePage> {
   void deactivate() {
     super.deactivate();
     if (_inCalling) {
-      _onRemoteCallHangUp('🗙 Llamada desactivada');
+      _onRemoteCallHangUp('🗙 Conexión desactivada');
     }
     _localRenderer.dispose();
     _remoteRenderer.dispose();
